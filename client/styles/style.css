@@ -4,7 +4,7 @@ body {
   font-family: arial, sans-serif;
 }
 
-a {
+a, .signout {
   color: #333;
   font-size: 14px;
   text-decoration: none;
@@ -31,7 +31,7 @@ h1 {
   float: left;
 }
 
-.navigation li a {
+.navigation li a, .signout {
   width: 100px;
   height: 20px;
   line-height: 20px;
@@ -40,7 +40,7 @@ h1 {
   text-align: center;
 }
 
-.navigation li a:hover {
+.navigation li a:hover, .signout:hover {
   background-color: #ddd;
 }
 
